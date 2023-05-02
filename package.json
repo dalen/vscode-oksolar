@@ -1,12 +1,12 @@
 {
-    "name": "vscode-solarized",
-    "displayName": "Braver's Solarized",
-    "description": "The best Solarized theme for VS Code",
-    "version": "2.0.2",
-    "publisher": "Braver",
+    "name": "vscode-oksolar",
+    "displayName": "OKSolar",
+    "description": "OKLabs Solarized theme based on Braver's Solarized theme",
+    "version": "0.0.1",
+    "publisher": "dalen",
     "repository": {
         "type": "git",
-        "url": "https://github.com/braver/vscode-solarized.git"
+        "url": "https://github.com/dalen/vscode-oksolar.git"
     },
     "engines": {
         "vscode": "^1.5.0"
@@ -16,29 +16,29 @@
     ],
     "icon": "logo.png",
     "galleryBanner": {
-        "color": "#fdf6e3"
+        "color": "#fbf7ef"
     },
     "contributes": {
         "themes": [
             {
-                "label": "Braver's Solarized Light",
+                "label": "OKLabs Solarized Light",
                 "uiTheme": "vs",
-                "path": "./themes/braver-solarized-light-color-theme.json"
+                "path": "./themes/oklabs-solarized-light-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Dark",
+                "label": "OKLabs Solarized Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/braver-solarized-dark-color-theme.json"
+                "path": "./themes/oklabs-solarized-dark-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Light (themed workbench)",
+                "label": "OKLabs Solarized Light (themed workbench)",
                 "uiTheme": "vs",
-                "path": "./themes/braver-solarized-light-with-workbench-color-theme.json"
+                "path": "./themes/oklabs-solarized-light-with-workbench-color-theme.json"
             },
             {
-                "label": "Braver's Solarized Dark (themed workbench)",
+                "label": "OKLabs Solarized Dark (themed workbench)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/braver-solarized-dark-with-workbench-color-theme.json"
+                "path": "./themes/oklabs-solarized-dark-with-workbench-color-theme.json"
             }
         ]
     }
